@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbo="http://dbpedia.org/ontology/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:prov="http://www.w3.org/ns/prov#"
+	xmlns:ns6="http://purl.org/linguistics/gold/" >
+  <rdf:Description rdf:about="http://dbpedia.org/resource/RDF">
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Part113809207" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Relation100031921" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/LanguageUnit106284225" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abbreviation107091587" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Form106290637" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Word106286395" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatAbbreviations" />
+    <rdfs:label xml:lang="fr">RDF</rdfs:label>
+    <rdfs:label xml:lang="nl">RDF</rdfs:label>
+    <rdfs:label xml:lang="ja">RDF</rdfs:label>
+    <rdfs:label xml:lang="de">RDF</rdfs:label>
+    <rdfs:label xml:lang="pl">RDF</rdfs:label>
+    <rdfs:label xml:lang="zh">RDF</rdfs:label>
+    <rdfs:label xml:lang="en">RDF</rdfs:label>
+    <rdfs:label xml:lang="es">RDF</rdfs:label>
+    <rdfs:label xml:lang="it">RDF</rdfs:label>
+    <owl:sameAs rdf:resource="http://es.dbpedia.org/resource/RDF" />
+    <owl:sameAs rdf:resource="http://ko.dbpedia.org/resource/RDF_(동음이의)" />
+    <owl:sameAs rdf:resource="http://linked-web-apis.fit.cvut.cz/resource/rdf_format" />
+    <owl:sameAs rdf:resource="http://linked-web-apis.fit.cvut.cz/resource/rdf_protocol" />
+    <owl:sameAs rdf:resource="http://yago-knowledge.org/resource/RDF" />
+    <owl:sameAs rdf:resource="http://de.dbpedia.org/resource/RDF" />
+    <owl:sameAs rdf:resource="http://nl.dbpedia.org/resource/RDF" />
+    <owl:sameAs rdf:resource="http://pl.dbpedia.org/resource/RDF" />
+    <owl:sameAs rdf:resource="http://fr.dbpedia.org/resource/RDF" />
+    <owl:sameAs rdf:resource="http://wikidata.dbpedia.org/resource/Q248514" />
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/RDF" />
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/RDF" />
+    <owl:sameAs rdf:resource="http://it.dbpedia.org/resource/RDF" />
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q248514" />
+    <owl:sameAs rdf:resource="http://cs.dbpedia.org/resource/RDF" />
+    <dbo:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19522034</dbo:wikiPageID>
+    <dbo:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">745084311</dbo:wikiPageRevisionID>
+    <dbo:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/Reality_distortion_field" />
+    <dbo:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/Resource_Description_Framework" />
+    <dbo:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/Richard_Dawkins_Foundation_for_Reason_and_Science" />
+    <dbo:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/Radio_direction_finder" />
+    <dbo:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/Radical_Dance_Faction" />
+    <dbo:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/Reduced_dimensions_form" />
+    <dbo:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/RDF_Media" />
+    <dbo:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/Refuse-derived_fuel" />
+    <dbo:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/Random_dopant_fluctuation" />
+    <dbo:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/Rwandan_Defence_Forces" />
+    <dbo:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/Reichsbund_Deutsche_Familie,_Kampfbund_für_erbtüchtigen_Kinderreichtum" />
+    <dbo:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/Radial_distribution_function" />
+    <dbo:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/United_States_Rapid_Deployment_Forces" />
+    <dbo:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/Reserve_Defence_Forces" />
+    <dbo:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/RDF_Schema" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/RDF" />
+    <prov:wasDerivedFrom rdf:resource="http://en.wikipedia.org/wiki/RDF?oldid=745084311" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/RDF_(disambiguation)">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/RDF" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Rdf">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/RDF" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Graph_Style_Sheets">
+    <ns6:hypernym rdf:resource="http://dbpedia.org/resource/RDF" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/RDF">
+    <foaf:primaryTopic rdf:resource="http://dbpedia.org/resource/RDF" />
+  </rdf:Description>
+</rdf:RDF>

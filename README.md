@@ -1,2 +1,1 @@
-# sesamRdfProto
-Playing with RDF
+https://mvnrepository.com/artifact/org.openrdf.sesame/sesame-repository-sail/4.1.2

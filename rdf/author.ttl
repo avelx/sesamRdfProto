@@ -1,0 +1,77 @@
+@prefix ns0:	<http://purl.org/linguistics/gold/> .
+@prefix dbr:	<http://dbpedia.org/resource/> .
+dbr:Graph_Style_Sheets	ns0:hypernym	dbr:RDF .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix wikipedia-en:	<http://en.wikipedia.org/wiki/> .
+wikipedia-en:RDF	foaf:primaryTopic	dbr:RDF .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+<http://dbpedia.org/resource/RDF_(disambiguation)>	dbo:wikiPageRedirects	dbr:RDF .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix yago:	<http://dbpedia.org/class/yago/> .
+dbr:RDF	rdf:type	yago:Part113809207 ,
+		yago:Relation100031921 ,
+		yago:LanguageUnit106284225 ,
+		yago:Abstraction100002137 ,
+		yago:Abbreviation107091587 ,
+		yago:Form106290637 ,
+        yago:Word106286395 ,
+        yago:WikicatAbbreviations .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+dbr:RDF	rdfs:label	"RDF"@fr ,
+		"RDF"@nl ,
+		"RDF"@ja ,
+		"RDF"@de ,
+		"RDF"@pl ,
+		"RDF"@zh ,
+		"RDF"@en ,
+		"RDF"@es ,
+		"RDF"@it .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix dbpedia-es:	<http://es.dbpedia.org/resource/> .
+dbr:RDF	owl:sameAs	dbpedia-es:RDF ,
+        <http://ko.dbpedia.org/resource/RDF_(\uB3D9\uC74C\uC774\uC758)> .
+@prefix ns10:	<http://linked-web-apis.fit.cvut.cz/resource/> .
+dbr:RDF	owl:sameAs	ns10:rdf_format ,
+        ns10:rdf_protocol .
+@prefix yago-res:	<http://yago-knowledge.org/resource/> .
+dbr:RDF	owl:sameAs	yago-res:RDF .
+@prefix dbpedia-de:	<http://de.dbpedia.org/resource/> .
+dbr:RDF	owl:sameAs	dbpedia-de:RDF .
+@prefix dbpedia-nl:	<http://nl.dbpedia.org/resource/> .
+dbr:RDF	owl:sameAs	dbpedia-nl:RDF .
+@prefix dbpedia-pl:	<http://pl.dbpedia.org/resource/> .
+dbr:RDF	owl:sameAs	dbpedia-pl:RDF .
+@prefix dbpedia-fr:	<http://fr.dbpedia.org/resource/> .
+dbr:RDF	owl:sameAs	dbpedia-fr:RDF .
+@prefix dbpedia-wikidata:	<http://wikidata.dbpedia.org/resource/> .
+dbr:RDF	owl:sameAs	dbpedia-wikidata:Q248514 ,
+        dbr:RDF .
+@prefix dbpedia-ja:	<http://ja.dbpedia.org/resource/> .
+dbr:RDF	owl:sameAs	dbpedia-ja:RDF .
+@prefix dbpedia-it:	<http://it.dbpedia.org/resource/> .
+dbr:RDF	owl:sameAs	dbpedia-it:RDF .
+@prefix wikidata:	<http://www.wikidata.org/entity/> .
+dbr:RDF	owl:sameAs	wikidata:Q248514 .
+@prefix dbpedia-cs:	<http://cs.dbpedia.org/resource/> .
+dbr:RDF	owl:sameAs	dbpedia-cs:RDF ;
+        foaf:isPrimaryTopicOf	wikipedia-en:RDF .
+@prefix prov:	<http://www.w3.org/ns/prov#> .
+dbr:RDF	prov:wasDerivedFrom	<http://en.wikipedia.org/wiki/RDF?oldid=745084311> ;
+        dbo:wikiPageRevisionID	745084311 ;
+	dbo:wikiPageID	19522034 ;
+	dbo:wikiPageDisambiguates	dbr:Reality_distortion_field ,
+		dbr:Resource_Description_Framework ,
+		dbr:Richard_Dawkins_Foundation_for_Reason_and_Science ,
+		dbr:Radio_direction_finder ,
+		dbr:Radical_Dance_Faction ,
+		dbr:Reduced_dimensions_form ,
+		dbr:RDF_Media ,
+		dbr:Refuse-derived_fuel ,
+		dbr:Random_dopant_fluctuation ,
+		dbr:Rwandan_Defence_Forces ,
+        <http://dbpedia.org/resource/Reichsbund_Deutsche_Familie,_Kampfbund_f\u00FCr_erbt\u00FCchtigen_Kinderreichtum> ,
+		dbr:Radial_distribution_function ,
+		dbr:United_States_Rapid_Deployment_Forces ,
+		dbr:Reserve_Defence_Forces ,
+        dbr:RDF_Schema .
+dbr:Rdf	dbo:wikiPageRedirects	dbr:RDF .
