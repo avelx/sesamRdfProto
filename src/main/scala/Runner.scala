@@ -15,7 +15,7 @@ object Runner extends App {
     // Load RDF to repo
     //val file = new File("/Users/pavel/Sources/sesamRdfProto/rdf/author.ttl")
     ///Users/pavel/Downloads/LearningSPARQLExamples/ex002.ttl
-    val file = new File("/Users/pavel/Downloads/LearningSPARQLExamples/ex002.ttl")
+    val file = new File("/Users/pavel/Downloads/LearningSPARQLExamples/ex012.ttl")
 
     val con = repo.getConnection()
     try {
@@ -38,20 +38,58 @@ object Runner extends App {
               | { ab:craig ab:email ?craigEmail . }
               |""".stripMargin
 
-        val tupleQuery = queryConnection.prepareTupleQuery(QueryLanguage.SPARQL, queryString)
+        val queryString2 =
+            """
+              |SELECT ?craigEmail
+              |WHERE
+              |{
+              |  <http://learningsparql.com/ns/addressbook#craig>
+              |  <http://learningsparql.com/ns/addressbook#email>
+              |  ?craigEmail .
+              |}
+              |""".stripMargin
+
+        val queryString3 =
+            """
+              |PREFIX ab: <http://learningsparql.com/ns/addressbook#>
+              |
+              |SELECT ?person
+              |WHERE
+              |{ ?person ab:homeTel "(229) 276-5135" . }
+              |""".stripMargin
+
+        val queryString4 =
+            """
+              |PREFIX ab: <http://learningsparql.com/ns/addressbook#>
+              |
+              |SELECT ?propertyName ?propertyValue
+              |WHERE
+              |{ ab:cindy ?propertyName ?propertyValue . }
+              |""".stripMargin
+
+        val queryString5 =
+            """
+              |PREFIX ab: <http://learningsparql.com/ns/addressbook#>
+              |
+              |SELECT ?craigEmail
+              |WHERE
+              |{
+              |  ?person ab:firstName "Craig" .
+              |  ?person ab:email ?craigEmail .
+              |}
+              |""".stripMargin
+
+        val tupleQuery = queryConnection.prepareTupleQuery(QueryLanguage.SPARQL, queryString5)
 
         val result = tupleQuery.evaluate()
 
         while(result.hasNext) {
             val bindingSet = result.next()
             val email = bindingSet.getValue("craigEmail")
-//            val valueOfY = bindingSet.getValue("y")
-
-            println(s"$email")
+//            val value  = bindingSet.getValue("propertyValue")
+            println(s"$email ")
         }
     } finally  {
         queryConnection.close()
     }
-
-    println("Complete ...")
 }
